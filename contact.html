@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Contact — Umer Farooq</title>
+<meta name="description" content="Get in touch with Umer Farooq, .NET Developer based in Lahore, Pakistan.">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html">Umer Farooq<span class="dot">.</span></a>
+    <nav class="navlinks">
+      <a href="index.html">home</a>
+      <a href="about.html">about</a>
+      <a href="experience.html">experience</a>
+      <a href="projects.html">projects</a>
+      <a href="contact.html" class="active">contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="page-head" style="border-top:none;">
+    <div class="kicker">contact</div>
+    <h1>Let's build something that holds up.</h1>
+    <p class="lead">Open to new opportunities and collaborations. Reach out through any of the channels below.</p>
+  </section>
+
+  <section style="border-top:none;">
+    <div class="contact-grid">
+      <div class="contact-card">
+        <span class="label mono">email</span>
+        <a class="val" href="mailto:umer.fq021@gmail.com">umer.fq021@gmail.com</a>
+      </div>
+      <div class="contact-card">
+        <span class="label mono">phone</span>
+        <a class="val" href="tel:+923186262324">+92 318 6262324</a>
+      </div>
+      <div class="contact-card">
+        <span class="label mono">location</span>
+        <span class="val">Lahore, Pakistan</span>
+      </div>
+      <div class="contact-card">
+        <span class="label mono">linkedin</span>
+        <span class="val">Umer Farooq</span>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="mono">© <span id="year"></span> Umer Farooq</div>
+</footer>
+
+<script>
+  try{ document.getElementById('year').textContent = new Date().getFullYear(); }catch(e){}
+</script>
+
+</body>
+</html>
