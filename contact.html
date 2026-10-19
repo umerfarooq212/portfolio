@@ -4,8 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>Contact — Umer Farooq</title>
-<meta name="description" content="Get in touch with Umer Farooq, .NET Developer based in Lahore, Pakistan.">
+<meta name="description" content="Start a software project with Umer Farooq — custom SaaS, APIs and automation.">
 <link rel="icon" href="data:,">
+<script>document.documentElement.classList.add('js');</script>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <link rel="stylesheet" href="styles.css">
@@ -17,9 +18,9 @@
     <a class="brand" href="index.html">Umer Farooq<span class="dot">.</span></a>
     <nav class="navlinks">
       <a href="index.html">home</a>
+      <a href="services.html">services</a>
+      <a href="work.html">work</a>
       <a href="about.html">about</a>
-      <a href="experience.html">experience</a>
-      <a href="projects.html">projects</a>
       <a href="contact.html" class="active">contact</a>
     </nav>
   </div>
@@ -27,20 +28,23 @@
 
 <main class="wrap">
 
-  <section class="page-head" style="border-top:none;">
+  <section class="page-head">
     <div class="kicker">contact</div>
-    <h1>Let's build something that holds up.</h1>
-    <p class="lead">Open to new opportunities and collaborations. Reach out through any of the channels below.</p>
+    <h1>Start a project</h1>
+    <p class="lead">
+      Tell me what you're trying to build and roughly when you need it. I'll come back with
+      what it takes — scope, approach, and timeline — before you commit to anything.
+    </p>
   </section>
 
-  <section style="border-top:none;">
+  <section class="section-flush">
     <div class="contact-grid">
       <div class="contact-card">
         <span class="label mono">email</span>
-        <a class="val" href="mailto:umer.fq021@gmail.com">umer.fq021@gmail.com</a>
+        <a class="val" href="mailto:umer.fq021@gmail.com?subject=Project%20enquiry">umer.fq021@gmail.com</a>
       </div>
       <div class="contact-card">
-        <span class="label mono">phone</span>
+        <span class="label mono">phone / whatsapp</span>
         <a class="val" href="tel:+923186262324">+92 318 6262324</a>
       </div>
       <div class="contact-card">
@@ -48,21 +52,50 @@
         <span class="val">Lahore, Pakistan</span>
       </div>
       <div class="contact-card">
-        <span class="label mono">linkedin</span>
-        <span class="val">Umer Farooq</span>
+        <span class="label mono">availability</span>
+        <span class="val">Open to new projects</span>
       </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="kicker">what to include</div>
+    <h2 class="section-title">Helpful things to mention</h2>
+    <div class="service-grid">
+      <div class="service-card reveal">
+        <div class="sn">01</div>
+        <h3>The problem</h3>
+        <p>What's broken or manual today, and who it's hurting. The product idea matters less than the problem behind it.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="sn">02</div>
+        <h3>Anything similar</h3>
+        <p>A product already on the market that's close to what you want. Fastest way for me to understand the target.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="sn">03</div>
+        <h3>Timeline &amp; constraints</h3>
+        <p>When you need it live, and anything fixed — an existing system, a required stack, a compliance requirement.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="cta-band">
+      <div>
+        <h2>Ready when you are.</h2>
+        <p>Email usually gets the fastest response.</p>
+      </div>
+      <a class="btn btn-primary" href="mailto:umer.fq021@gmail.com?subject=Project%20enquiry">email me →</a>
     </div>
   </section>
 
 </main>
 
 <footer>
-  <div class="mono">© <span id="year"></span> Umer Farooq</div>
+  <div class="mono">© <span id="year"></span> Umer Farooq — custom software development</div>
 </footer>
 
-<script>
-  try{ document.getElementById('year').textContent = new Date().getFullYear(); }catch(e){}
-</script>
-
+<script src="main.js"></script>
 </body>
 </html>
